@@ -1,1 +1,1 @@
-# ai-learning-lab
+I enjoy taking messy processes, organizing information, and using technology to make work easier for people. I'm currently expanding my skills in AI, Python, and workflow automation while building practical, real-world projects.
