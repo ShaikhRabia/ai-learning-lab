@@ -1,7 +1,7 @@
 # AI Learning Journal
 
 
-## Session 001 — 2026-07-27
+## Session 001 — 2026-07-26
 
 ### What I accomplished
 - Set up Google Colab for AI development.
