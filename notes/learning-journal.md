@@ -69,3 +69,45 @@
 - Inspect the final value stored in `documented_code`.
 - Begin Prompt 3, which will generate tests for the documented function.
 - Decide whether Prompt 2 should be revised so that it changes only the documentation and not the function implementation.
+
+---
+
+## Session 003 — 2026-07-28
+
+### What I accomplished
+- Completed Prompt 3 by generating Python unit tests for the documented function.
+- Extracted the generated test code using the existing `extract_python_code()` helper function.
+- Saved the generated test code to a Python file.
+- Verified the location of the generated file within the Google Colab environment.
+- Compared my notebook implementation with the instructor's complete Python script.
+- Created a new Google Colab notebook containing the instructor's final solution.
+- Updated the instructor's solution to use the Gemini model instead of GPT-4.
+- Increased `max_tokens` from 1024 to 2048 in the instructor's solution.
+- Successfully executed the instructor's solution and generated a Python file.
+
+### What I learned
+- The same AI workflow can be implemented in multiple ways while producing the same overall result.
+- My notebook implementation used separate message lists for each stage of the workflow (`messages`, `documentation_messages`, and `test_messages`).
+- The instructor's implementation maintained a single conversation by continually appending messages to the same `messages` list.
+- Conversation history can be preserved by storing previous user and assistant messages instead of explicitly passing the previous output into each new prompt.
+- A complete AI workflow can be organized inside a reusable Python function.
+- The `if __name__ == "__main__":` block allows a Python script to execute its main workflow when run directly.
+- Python scripts and Jupyter notebooks often contain the same logic but are organized differently.
+- The instructor generated filenames dynamically from the user's input instead of using a fixed filename.
+- The instructor saved both the documented function and the generated test cases into a single Python file.
+- `SyntaxWarning` messages indicate something unusual in the code but do not necessarily prevent the program from executing.
+- Python interprets a backslash (`\`) inside a string as the beginning of an escape sequence.
+- `\`` is not a valid Python escape sequence, which caused the `SyntaxWarning` messages.
+- Markdown code fences should be written using normal triple backticks rather than escaped backticks.
+
+### Challenges I solved
+- Compared the instructor's implementation with my own to understand the architectural differences rather than assuming one approach was correct.
+- Investigated why the instructor's code generated multiple `SyntaxWarning: invalid escape sequence '\`'` messages.
+- Confirmed that the warnings were caused by escaped backticks inside string literals.
+- Verified that the warnings did not prevent the program from running successfully.
+- Successfully generated and saved the final Python file despite the warnings.
+
+### Next session
+- Continue with the next section of the AI Agents course.
+- Continue strengthening Python knowledge while learning AI concepts.
+- Ask questions about any new Python syntax before moving on to the next topic.
