@@ -38,4 +38,24 @@ LinkedIn Profile: https://www.linkedin.com/in/rabiashaikhs/
 #### Response
 I can't access LinkedIn profiles directly (they block automated access), so I won't be able to pull your profile details that way. No problem, though — just tell me a few key things here and I'll build you a solid roadmap:
 
-#### Professional Headshot
+## Professional Headshot
+Details of uploaded picture: Picture had blinds and windows in the background. Person was next to another person with head touching and right shoulder not in the picture.
+
+### ChatGPT
+#### Prompt
+You are an ace at Adobe. can you clean this picture up and make it into a professional headshot? I am the one with the head covering, so that is who needs to be in the picture.
+
+Details: Picture had blinds and windows in the background. Person was next to another person with head touching and right shoulder not in the picture.
+
+#### Response
+Cleaned the background.
+Centered the image.
+Removed the other person.
+Added the right shoulder.
+
+### Claude
+#### Prompt
+You are an ace at Adobe. can you clean this picture up and make it into a professional headshot? I am the one with the head covering, so that is who needs to be in the picture.
+#### Response
+Cropped the image as I would, without any enhancements or changes. Absolutely not usable as a professional head shot.
+
