@@ -1,1 +1,1 @@
-I enjoy taking messy processes, organizing information, and using technology to make work easier for people. I'm currently expanding my skills in AI, Python, and workflow automation while building practical, real-world projects.
+I enjoy taking messy processes, organizing information, and using technology to make work easier for people. This repository documents my journey as I build practical skills in AI, Python, workflow automation, and data annotation through hands-on projects and continuous learning.
