@@ -120,18 +120,18 @@
 - Completed Module 1 of the Coursera course *AI Agents and Agentic AI with Python & Generative AI*.
 - Passed the Module 1 assessment with a score of 80%.
 - Started Module 2 and completed the introductory video lessons.
-- Completed the H2O Label Genie introductory course to learn the basics of AI data annotation and labeling workflows.
+- Completed the H2O Label Genie introductory learning module to gain familiarity with AI data annotation workflows.
 - Applied for the LinkedIn Generalist Data Trainer position.
 
 ### What I learned
 
-- AI data annotation is an important part of preparing high-quality data for training and evaluating AI models.
-- Annotation platforms provide structured workflows for labeling, reviewing, and maintaining consistency across datasets.
-- Building AI applications and understanding how training data is created are complementary skills.
+- AI data annotation is an important part of preparing high-quality datasets for training and evaluating AI models.
+- Annotation platforms use structured workflows to create consistent, accurate labels that improve model performance.
+- Building AI applications and understanding how training data is created are complementary skills that strengthen my AI foundation.
 
 ### Challenges I solved
 
-- Balanced coursework, hands-on learning, and job applications while continuing my transition into AI.
+- Balanced structured coursework, hands-on projects, and job applications while continuing my transition into AI.
 
 ### Next session
 
