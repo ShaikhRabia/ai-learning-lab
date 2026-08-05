@@ -138,3 +138,57 @@
 - Continue Module 2 of the Coursera course.
 - Complete the next coding exercises.
 - Continue documenting new Python and AI concepts as I learn them.
+
+---
+
+## Session 005 — 2026-08-04
+
+### What I accomplished
+- Continued Module 2 of the Coursera course *AI Agents and Agentic AI with Python & Generative AI*.
+- Completed an assignment explaining the purpose and structure of an AI agent loop.
+- Received a score of 100% on the AI Agent Loop assignment.
+- Ran three instructor-provided Python notebooks in Google Colab:
+  - LLM Function Calling
+  - Agent with Tools
+  - Agent Loop with Function Calling
+- Read through the provided code to understand the overall logic and how the different components work together.
+- Used Gemini through LiteLLM while running the notebook examples.
+- Observed an agent select and execute a tool that listed the files in the current directory.
+- Chose to postpone the optional exercise in the third notebook until after completing additional Python practice.
+
+### What I learned
+- An AI agent loop repeatedly observes information, reasons about what to do, performs an action, evaluates the result, and continues until the task is complete.
+- Function calling allows an LLM to select an available Python function and provide the arguments needed to run it.
+- Defining a tool for the LLM does not execute the Python function automatically; the application must connect the selected tool name to the corresponding function and run it.
+- A `tool_functions` dictionary maps tool names such as `list_files` and `read_file` to the Python functions that perform those actions.
+- Tool definitions describe each tool's name, purpose, parameters, and required arguments so the LLM knows how it may use the tool.
+- The LLM Function Calling notebook demonstrated a single tool-selection and execution step without a continuing agent loop.
+- The Agent with Tools notebook used a manually defined JSON action format and parsed the model's response to determine which tool to execute.
+- The Agent with Tools notebook maintained memory by adding the assistant's response and the tool result to the conversation after each action.
+- The Agent Loop with Function Calling notebook used LiteLLM's built-in function-calling structure instead of requiring the application to manually extract an action from a Markdown code block.
+- An agent loop can continue selecting and executing tools until it chooses a `terminate` tool or reaches a maximum number of iterations.
+- A maximum-iteration limit helps prevent an agent from continuing indefinitely.
+- The `terminate` tool gives the agent a defined way to end the loop and provide a final summary.
+- Conversation memory allows the agent to use the results of earlier tool calls when deciding what to do next.
+- Reading existing code can help me understand program logic even when I am not yet comfortable with every part of the Python syntax.
+
+<details><summary>AI Agent Loop</summary>
+  
+- An AI agent loop is the repeated cycle an AI agent follows to complete a task. Instead of responding only once to a prompt, an AI agent continuously observes information, thinks about what to do next, performs an action, and then evaluates the results. This loop continues until the agent reaches its goal or determines that no further actions are needed. 
+- A typical AI agent loop consists of four main steps: observe, reason, act, and repeat. First, the agent gathers information from its environment or from the user. Next, it reasons about the information and decides what action to take. It then performs that action, such as generating code, searching for information, or calling an external tool. Finally, it evaluates the new information and decides whether another iteration of the loop is necessary. 
+- This iterative process makes AI agents more capable than a traditional chatbot that simply answers one question at a time. Because the agent can repeatedly analyze results and adjust its actions, it can solve more complex, multi-step problems. For example, an AI coding agent might write a function, test it, identify an error, revise the code, and repeat the process until the solution works correctly. 
+- AI agent loops are a fundamental concept in modern AI systems because they allow models to plan, adapt, and improve their work over multiple steps. As AI applications become more advanced, this ability to repeatedly observe, reason, and act enables agents to handle increasingly complex tasks with minimal human intervention.
+</details>
+
+### Challenges I solved
+- Focused on understanding the purpose and flow of the provided code rather than trying to memorize unfamiliar Python syntax.
+- Distinguished between a Python function, a tool description shown to the LLM, and the code that connects and executes them.
+- Compared manually formatted tool actions with native LLM function calling.
+- Recognized the progression from a single function call to a multi-step agent that can use tools, maintain memory, and decide when to stop.
+- Made a deliberate decision to postpone the optional programming exercise until I have strengthened my Python fundamentals.
+
+### Next session
+- Continue Module 2 of the Coursera course.
+- Continue reviewing new Python and AI-agent concepts as they appear.
+- Strengthen my Python fundamentals through practical tutorials and exercises.
+- Return to the optional directory and file-reading exercise after completing additional Python practice.
