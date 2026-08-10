@@ -2,6 +2,8 @@
 
 ChatGPT 3 - Claude 0
 
+This is the score for someone using both without any training on either platform.
+
 ## LinkedIn Profile Review
 
 ### ChatGPT
