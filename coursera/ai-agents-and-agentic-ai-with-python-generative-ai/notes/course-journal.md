@@ -1,4 +1,4 @@
-# AI Learning Journal
+# AI Course Journal
 
 ---
 ## Session 001 — 2026-07-26
