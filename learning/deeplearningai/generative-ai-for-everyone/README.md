@@ -37,4 +37,4 @@ The course also helped me understand that generative AI should be selected based
 
 ## Completion evidence
 
-![Generative AI for Everyone — 100% course completion](course-completion.png)
+![Generative AI for Everyone — 100% course completion](https://github.com/user-attachments/assets/68d6ceb7-5915-437a-9769-0a4f70baef99)
